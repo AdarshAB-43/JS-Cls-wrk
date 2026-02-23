@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <p>The price of 5 t-shirts is:</p>
+        <p id="demo"></p>
+
+           <p>The price of 3caps is:</p>
+        <p id="demo1"></p>
+         
+        <p>Total Price is :</p>
+        <p id="totalPrice"></p>
+
+           <p>The price of 5 t-shirts is:</p>
+        <p id="demo2"></p>
+
+           <p>The price of 3caps is:</p>
+        <p id="demo3"></p>
+           <p>Updated Total Price is :</p>
+        <p id="updatedTotalPrice"></p>
+    <script>
+     
+
+        var tshirts = 400*5;
+        var caps = 150*3;
+
+        document.getElementById("demo").innerHTML = tshirts;
+        document.getElementById("demo1").innerHTML = caps;
+   document.getElementById("totalPrice").innerHTML = tshirts + caps;
+
+
+        var tshirt = 450*5;
+        var cap = 150*3;
+
+        document.getElementById("demo2").innerHTML = tshirt;
+        document.getElementById("demo3").innerHTML = cap;
+         document.getElementById("updatedTotalPrice").innerHTML = tshirt + cap;
+        
+    </script>
+</body>
+</html>
