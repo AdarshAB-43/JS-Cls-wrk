@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Math</h2>
+<p id="demo"></p>
+
+<script>
+let randomNumber = Math.floor(Math.random() * 100) + 1;
+
+let userScoreString = "75";
+
+let userScore = Number(userScoreString);
+
+let difference = randomNumber - userScore;
+
+let roundedSqrt = Math.round(Math.sqrt(userScore));
+
+let piValue = Math.PI;
+
+var result_3 = '50' * 2;
+
+document.getElementById("demo").innerHTML =
+"Random Number: " + randomNumber + "<br>" +
+"User Score: " + userScore + "<br>" +
+"Difference: " + difference + "<br>" +
+"Rounded Square Root: " + roundedSqrt + "<br>" +
+"PI Value: " + piValue + "<br>" +
+"Implicit Result: " + result_3;
+
+</script>
+
+</body>
+</html>
